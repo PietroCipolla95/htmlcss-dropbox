@@ -113,6 +113,10 @@ p {
     flex-wrap: wrap;
 }
 
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+
 .col-4 {
     width: calc(100% / 12 * 4);
 }
@@ -138,7 +142,10 @@ p {
     width: calc(100% / 12 * 3);
 }
 
-
+h2  {
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+}
 
 /* #endregion Utility */
 
@@ -192,11 +199,6 @@ img {
 
 #plans {
     padding-top: 6rem;
-}
-
-#plans h2 {
-    font-size: 2.5rem;
-    padding-bottom: 3rem;
 }
 
 .input-radio {
@@ -295,7 +297,7 @@ img {
 }
 
 #partner img {
-    width: 700px;
+    width: 650px;
 }
 
 #partner h3 {
@@ -313,7 +315,7 @@ img {
 
 #partner .col-4 {
     margin-top: 5rem;
-    padding: 2rem;
+    padding: 2rem 4rem 0 0;
     align-items: flex-start;
 }
 
@@ -325,3 +327,42 @@ img {
 
 
 /* #endregion Partner */
+
+/* #region Business */
+
+#business .col-4 {
+    padding-top: 2rem;    
+}
+
+#business h2 {
+    margin-top: 8rem;
+}
+
+#business h3 {
+    font-size: 2rem;
+    padding-bottom: 1.6rem;
+}
+
+#business img {
+    width: 350px;
+}
+
+#learn-more {
+    text-decoration: underline;
+    padding-bottom: 8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* #endregion Business */
+
+
