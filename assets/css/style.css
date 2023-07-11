@@ -186,18 +186,47 @@ img {
 }
 
 .col-head {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    padding: 1rem;
 }
 
+
+
 #plans .col-4 {
-    width: calc(90% / 12 * 4);
-    border: 1px solid black;
+    width: calc(88% / 12 * 4);
+    border: 1px solid lightgray;
 }
 
 #plans .row {
     justify-content: space-between;
     padding-bottom: 2rem;
 }
+
+.price {
+    padding-top: 1rem;
+    font-weight: 600;
+}
+
+.month {
+    padding-top: 0.5rem;
+}
+
+.space {
+    margin: 1rem 1rem;
+    padding-top: 0;
+    width: 60px;
+}
+
+.col-main ul {
+    padding-bottom: 2rem;
+}
+
+#plans li {
+    padding-top: 1rem;
+}
+
+
 
 
 
