@@ -50,6 +50,11 @@ p {
     background-color: black;
 }
 
+.debug .col-4 {
+    background-color: yellow;
+    height: 100px;
+}
+
 /* #endregion Debug */
 
 /* #region Utility */
@@ -103,8 +108,13 @@ p {
     width: calc(100% / 12 * 8);
 }
 
+
 .py-4 {
     padding: 0rem 0 4rem 0;
+}
+
+.direction-col {
+    flex-direction: column;
 }
 
 
@@ -165,8 +175,30 @@ img {
 #plans h2 {
     font-size: 2.5rem;
     padding-bottom: 3rem;
-
 }
+
+.fattura {
+    margin-bottom: 2rem;    
+}
+
+.ml-2 {
+    margin-left: 2rem;
+}
+
+.col-head {
+    border-bottom: 1px solid black;
+}
+
+#plans .col-4 {
+    width: calc(90% / 12 * 4);
+    border: 1px solid black;
+}
+
+#plans .row {
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
 
 
 
