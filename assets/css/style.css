@@ -76,7 +76,6 @@ p {
     background-color: #0061FF;
     color: white;
     padding: 0.5rem 1rem;
-    margin: 1.5rem 0;
 }
 
 .container {
@@ -100,7 +99,7 @@ p {
 }
 
 .py-4 {
-    padding: 2rem 0;
+    padding: 0rem 0 4rem 0;
 }
 
 
@@ -146,10 +145,8 @@ img {
     color: black;
 }
 
-
-
-
-
-
+.jumbotron .button {
+    margin: 2rem 0;
+}
 
 /* #endregion Jumbotron */
