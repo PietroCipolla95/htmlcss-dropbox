@@ -108,6 +108,10 @@ p {
     width: calc(100% / 12 * 8);
 }
 
+.col-12 {
+    width: 100%;
+}
+
 
 .py-4 {
     padding: 0rem 0 4rem 0;
@@ -240,7 +244,7 @@ img {
 }
 
 .fa-check {
-    color: green;
+    color: var(--db-blue);
 }
 
 /* #rendegion Plans */
