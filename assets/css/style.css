@@ -13,12 +13,17 @@
 body {
     font-family: 'Fredoka', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    min-width: 1440px;
 }
 
 a {
     text-decoration: none;
     padding: 0.5rem;
     font-weight: 600;
+}
+
+p {
+    line-height: 1.5rem;
 }
 
 /* #region Debug */
@@ -71,6 +76,31 @@ a {
     background-color: #0061FF;
     color: white;
     padding: 0.5rem 1rem;
+    margin: 1.5rem 0;
+}
+
+.container {
+    max-width: 1170px;
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+}
+
+.py-4 {
+    padding: 2rem 0;
 }
 
 
@@ -96,4 +126,30 @@ nav a {
 
 /* #endregion Header */
 
+/* #region Jumbotron */
 
+.jumbotron {
+    height: 720px;
+    background-color: var(--db-lightblue);
+}
+
+.jumbotron h1 {
+    font-size: 5rem;
+    padding: 4rem 0;
+}
+
+img {
+    width: 100%;
+}
+
+.jumbotron i {
+    color: black;
+}
+
+
+
+
+
+
+
+/* #endregion Jumbotron */
