@@ -80,11 +80,20 @@ p {
     gap: 1rem;
 }
 
+.button, .white-button {
+    padding: 0.5rem 1rem;
+}
+
 .button {
     display: inline-block;
     background-color: #0061FF;
     color: white;
-    padding: 0.5rem 1rem;
+}
+
+.white-button {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    color: black;
 }
 
 .container {
@@ -277,4 +286,17 @@ img {
 
 /* #endregion Plans */
 
+/* #region Partner */
 
+#partner h3 {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+/* #endregion Partner */
