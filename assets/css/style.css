@@ -8,6 +8,14 @@
     --db-blue: #0061FF;
     --db-lightblue: #B4D0E7;
     --db-purple: #610C32;
+    --db-design: #A2D39B;
+    --db-asu: #61082B;
+    --db-florida: #0093CE;
+    --db-topps: #FF1C1C;
+    --db-bycicle: #D5001F;
+    --db-hearts: #B4D0E7;
+    --db-lonely: #0D2481;
+    --db-clear: #FFD830;
 }
 
 body {
@@ -114,7 +122,10 @@ p {
 }
 
 .col-2 {
-    width: calc(100% / 12 * 2);
+    width: calc(50%);
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
 }
 
 .col-4 {
@@ -181,7 +192,7 @@ nav a {
     padding: 4rem 0;
 }
 
-img {
+.jumbotron img {
     width: 100%;
 }
 
@@ -319,38 +330,45 @@ img {
     align-items: flex-start;
 }
 
-
-
-
-
-
-
-
 /* #endregion Partner */
 
 /* #region Business */
 
-#business .col-4 {
+#business-head .col-4 {
     padding-top: 2rem;    
 }
 
-#business h2 {
+#business-head h2 {
     margin-top: 8rem;
 }
 
-#business h3 {
+#business-head h3 {
     font-size: 2rem;
-    padding-bottom: 1.6rem;
 }
 
-#business img {
+#business-head > .row > img {
     width: 350px;
 }
 
 #learn-more {
     text-decoration: underline;
-    padding-bottom: 8rem;
 }
+
+.banners {
+    padding-top: 5rem;
+}
+
+#business-banners img {
+    width: 200px;
+}
+
+.design {
+    fill: var(--db-design);
+}
+
+
+
+
 
 
 
