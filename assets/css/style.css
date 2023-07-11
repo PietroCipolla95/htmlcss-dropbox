@@ -9,11 +9,12 @@
     --db-lightblue: #B4D0E7;
     --db-purple: #610C32;
     --db-design: #A2D39B;
+    --db-design-shadow: #D1E9CD;
     --db-asu: #61082B;
     --db-florida: #0093CE;
     --db-topps: #FF1C1C;
     --db-bycicle: #D5001F;
-    --db-hearts: #B4D0E7;
+    --db-hearst: #B4D0E7;
     --db-lonely: #0D2481;
     --db-clear: #FFD830;
 }
@@ -334,6 +335,8 @@ nav a {
 
 /* #region Business */
 
+/* #region business-head */
+
 #business-head .col-4 {
     padding-top: 2rem;    
 }
@@ -354,18 +357,77 @@ nav a {
     text-decoration: underline;
 }
 
+/* #endregion business-head */
+
+/* #region business-banners */
+
 .banners {
     padding-top: 5rem;
 }
 
-#business-banners img {
-    width: 200px;
+.central-banner{
+    padding: 3rem;
 }
+
+.central-banner hr {
+    width: 100px;
+    margin: 3rem 0;
+}
+
+.central-banner p {
+    padding-bottom: 3rem;
+}
+
+.central-svg {
+    width: 300px;
+}
+
+#business-banners img:not(.central-svg) {
+    width: 200px;
+    filter: invert(1);
+}
+
+/* #endregion business-banners */
+
+/* #region Banners colors */
 
 .design {
-    fill: var(--db-design);
+    background-color: var(--db-design);
+    box-sizing: border-box;
+    border: 15  px solid var(--db-design-shadow);
 }
 
+.asu {
+    background-color: var(--db-asu);
+}
+
+.uf {
+    background-color: var(--db-florida);
+}
+
+.topps {
+    background-color: var(--db-topps);
+}
+
+.bycicle {
+    background-color: var(--db-bycicle);
+}
+
+.hearst {
+    background-color: var(--db-hearst);
+}
+
+.lonely {
+    background-color: var(--db-lonely);
+}
+
+.clear {
+    background-color: var(--db-clear);
+}
+
+/* #endregion Banners colors */
+
+/* #region business-foot */
 
 
 
@@ -375,8 +437,7 @@ nav a {
 
 
 
-
-
+/* #endregion business-banners */
 
 
 
