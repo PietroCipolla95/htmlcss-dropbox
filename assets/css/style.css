@@ -103,6 +103,7 @@ p {
     display: inline-block;
     border: 1px solid black;
     color: black;
+    background-color: white;
 }
 
 .container {
@@ -429,19 +430,39 @@ nav a {
 
 /* #region business-foot */
 
+#business-foot {
+    background-color: var(--db-lightblue);
+}
 
+.col-banners-foot {
+    width: calc(50%);
+}
 
+#business-foot h3 {
+    color: var(--db-purple);
+    font-size: 2.5rem;
+}
 
+#business-foot .row {
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 0;    
+}
 
-
-
-
+.col-business-foot:nth-child(2) {
+    text-align: right;
+}
 
 /* #endregion business-banners */
 
-
-
-
 /* #endregion Business */
+
+/* #region FAQ */
+
+
+
+
+
+/* #endregion FAQ */
 
 
