@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --db-blue: #0061FF;
+    --db-lightblue: #B4D0E7;
+    --db-purple: #610C32;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+/* #region Debug */
+
+.debug main {
+    height: 1400px;
+    background-color: aqua;
+}
+
+.debug header {
+    height: 100px;
+    background-color: green;
+}
+
+.debug .menu {
+    background-color: grey;
+    height: 80px;
+    width: 500px;
+    
+}
+
+.debug footer {
+    height: 100px;
+    background-color: black;
+}
+
+/* #endregion Debug */
+
+/* #region Utility */
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.unstyle {
+    list-style: none;
+    gap: 1rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: #0061FF;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+
+/* #endregion Utility */
+
+/* #region Header */
+
+nav {
+    padding: 1rem 0.5rem;
+}
+
+nav a {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    gap: 1rem;
+}
+
+
+
+/* #endregion Header */
+
+
