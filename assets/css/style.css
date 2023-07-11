@@ -84,10 +84,15 @@ p {
     margin: auto;
 }
 
+.container-smaller {
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .col-4 {
@@ -150,3 +155,26 @@ img {
 }
 
 /* #endregion Jumbotron */
+
+/* #region Plans */
+
+#plans {
+    padding-top: 6rem;
+}
+
+#plans h2 {
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+
+}
+
+
+
+
+
+
+
+
+
+/* #rendegion Plans */
+
