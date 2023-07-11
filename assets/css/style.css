@@ -92,7 +92,7 @@ p {
 
 .white-button {
     display: inline-block;
-    border: 1px solid lightgrey;
+    border: 1px solid black;
     color: black;
 }
 
@@ -215,6 +215,7 @@ img {
 
 .col-main {
     padding: 1.5rem;
+    align-items: flex-start;
 }
 
 #plans .col-4 {
@@ -236,6 +237,7 @@ img {
 
 .col-main ul {
     padding-bottom: 2rem;
+    margin-left: 1.5rem;
 }
 
 .col-main .button {
@@ -288,8 +290,31 @@ img {
 
 /* #region Partner */
 
+#partner {
+    margin-top: 7rem;
+}
+
+#partner img {
+    width: 700px;
+}
+
 #partner h3 {
     font-size: 1.5rem;
+    padding-bottom: 1.8rem;
+}
+
+#partner p {
+    margin-bottom: 1rem;
+}
+
+#partner .col-8 {
+    padding-right: 2rem;
+}
+
+#partner .col-4 {
+    margin-top: 5rem;
+    padding: 2rem;
+    align-items: flex-start;
 }
 
 
