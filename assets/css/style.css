@@ -242,7 +242,6 @@ nav a {
 }
 
 #plans .row {
-    justify-content: space-between;
     padding-bottom: 2rem;
 }
 
@@ -348,6 +347,7 @@ nav a {
 
 #business-head h3 {
     font-size: 2rem;
+    padding-bottom: 2rem;
 }
 
 #business-head > .row > img {
@@ -434,8 +434,12 @@ nav a {
     background-color: var(--db-lightblue);
 }
 
-.col-banners-foot {
+.col-business-foot {
     width: calc(50%);
+}
+
+#business-foot .white-button {
+    border: none;
 }
 
 #business-foot h3 {
@@ -459,10 +463,68 @@ nav a {
 
 /* #region FAQ */
 
+#faqs {
+    padding: 5rem 0;
+}
+
+#faqs h2 {
+    padding-bottom: 5rem;
+}
+
+.faq {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 2rem 0;
+}
+
+.faq p {
+    display: none;
+}
+
 
 
 
 
 /* #endregion FAQ */
 
+/* #region Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 3rem 0;
+}
+
+.col-footer {
+    max-width: calc(100% / 12 * 1.4);
+}
+
+footer h4 {
+    padding-bottom: 1rem;
+}
+
+footer a {
+    padding: 0.4rem 0;
+    color: white;
+    font-size: 0.8rem;
+}
+
+footer hr {
+    width: 100px;
+    margin: 3rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #endregion Footer */
 
