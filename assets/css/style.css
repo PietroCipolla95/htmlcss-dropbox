@@ -395,6 +395,7 @@ input {
 
 #learn-more {
     text-decoration: underline;
+    color: var(--db-blue);
 }
 
 /* #endregion business-head */
