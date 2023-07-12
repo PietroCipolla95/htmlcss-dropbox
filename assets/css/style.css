@@ -517,6 +517,11 @@ input {
     padding: 2rem 0;
 }
 
+.faq:nth-child(3) {
+    border-top: none;
+    border-bottom: none;
+}
+
 .faq p {
     display: none;
     padding-top: 1rem;
