@@ -248,6 +248,11 @@ input {
     padding-top: 6rem;
 }
 
+#plans span > a {
+    color: var(--db-blue);
+    text-decoration: underline;
+}
+
 .input-radio {
     margin-bottom: 2rem;    
 }
