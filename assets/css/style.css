@@ -170,12 +170,8 @@ header {
     top: 0;
 }
 
-nav {
-    padding: 1rem 0.5rem;
-}
-
 nav a {
-    padding: 0.5rem;
+    padding: 1.2rem;
     text-decoration: none;
     color: black;
 }
@@ -184,12 +180,9 @@ nav a {
     gap: 1rem;
 }
 
-
-ul li:hover {
-    border-spacing: 1rem;
+ul a:hover {
     border-bottom: 2px solid black;
 }
-
 
 
 /* #endregion Header */
@@ -550,7 +543,18 @@ footer hr {
 
 input {
     appearance: none;
+    border: 1px solid black;
+    height: 15px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    background-color: white;
 }
+
+input:hover {
+    color: var(--db-blue);
+}
+
+
 
 
 
