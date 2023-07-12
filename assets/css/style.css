@@ -435,7 +435,7 @@ input {
 .design {
     background-color: var(--db-design);
     box-sizing: border-box;
-    border: 15  px solid var(--db-design-shadow);
+    border: 15px solid var(--db-design-shadow);
 }
 
 .asu {
