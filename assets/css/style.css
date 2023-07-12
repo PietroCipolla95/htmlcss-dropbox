@@ -164,6 +164,12 @@ h2  {
 
 /* #region Header */
 
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
 nav {
     padding: 1rem 0.5rem;
 }
@@ -479,11 +485,16 @@ nav a {
 
 .faq p {
     display: none;
+    padding-top: 1rem;
 }
 
+.faq:hover p {
+    display: block;
+}
 
-
-
+.faq:hover i {
+    rotate: 180deg;
+}
 
 /* #endregion FAQ */
 
@@ -514,17 +525,17 @@ footer hr {
     margin: 3rem 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* #endregion Footer */
 
+/* #region ButtonHovers */
+
+.button:hover {
+    opacity: 70%;
+}
+
+.white-button:hover {
+    color: white;
+    background-color: black;
+}
+
+/* #endregion ButtonHovers */
