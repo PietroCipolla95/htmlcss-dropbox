@@ -275,6 +275,11 @@ input {
 
 #plans .col-4 {
     width: calc(88% / 12 * 4);
+    background-color: white;
+}
+
+#plans .col-4:hover, #plans .col-12:hover {
+    transform: scale(1.02);
 }
 
 #plans .col-12, #plans .col-4 {
