@@ -421,6 +421,11 @@ input {
     margin: 3rem 0;
 }
 
+.col-2:hover {
+    transform: scale(1.1);
+    border: 1px solid black;
+}
+
 .central-banner p {
     padding-bottom: 3rem;
 }
