@@ -571,6 +571,10 @@ footer a {
     font-size: 0.8rem;
 }
 
+footer a:hover {
+    color: var(--db-blue);
+}
+
 footer hr {
     width: 100px;
     margin: 3rem 0;
