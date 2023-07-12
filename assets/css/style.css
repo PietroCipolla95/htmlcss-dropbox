@@ -185,6 +185,12 @@ nav a {
 }
 
 
+ul li:hover {
+    border-spacing: 1rem;
+    border-bottom: 2px solid black;
+}
+
+
 
 /* #endregion Header */
 
@@ -539,3 +545,19 @@ footer hr {
 }
 
 /* #endregion ButtonHovers */
+
+/* #region inputradio */
+
+input {
+    appearance: none;
+}
+
+
+
+
+
+
+
+
+/* #endregion inputradio */
+
